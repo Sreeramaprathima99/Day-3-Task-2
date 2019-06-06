@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<limits.h>
+void main()
+{  
+  int a=20;
+  char ch='A';
+  float c=205;
+  double d=25.7;
+
+  printf("int=%d\nint=%i\nchar=%c\nchar=%d\nfloat=%f\ndouble=%e\nlong double=%lf\ndouble=%f\ndouble=%e\n",a,a,ch,ch,c,c,c,d,d);
+}
